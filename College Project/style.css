@@ -1,0 +1,135 @@
+.formscol{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.formsrow{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+
+input {
+    
+    margin: 11px 0px;
+    padding: 7px;
+    width: 100%;
+    border: 3px solid green;
+    border-radius: 8px;
+    
+    text-align: center;
+
+}
+
+.btn {
+        cursor: pointer;
+        color: rgb(6, 65, 23);
+        background-color:rgb(190, 231, 236);
+        margin: 15px;
+        padding: 5px;
+        font-family: monospace;
+        font-size: 17px;
+        border-radius: 8px;
+        text-align: center;
+        width: 150px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    
+    }
+
+.btnrow{
+    cursor: pointer;
+        color: rgb(13, 85, 6);
+        background-color:rgb(241, 205, 241);
+        margin: 15px;
+        padding: 5px;
+        font-family: monospace;
+        font-size: 17px;
+        border-radius: 8px;
+        text-align: center;
+        width: 200px;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+}
+
+.btn:hover{
+    background-color: rgb(194, 165, 231);
+}
+
+.btnrow:hover{
+    background-color: rgb(94, 233, 127);
+}
+
+    .container{
+        width: 50%;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+.success {
+
+    color: green;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+.error {
+
+    color: red;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.astyle {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(51, 61, 201);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    border: solid brown;
+    border-radius: 5px;
+
+}
+
+table{
+    border-collapse: collapse;
+    font-family:monospace;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    border: 2px solid black;
+   
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+
+tr:nth-child(even) { background-color: #f2f2f2;}
+
+.marktable {
+    margin: auto;
+}
+
+.headrow {
+    background-color: rgb(206, 236, 238);
+    border: 2px solid black;
+}
