@@ -155,7 +155,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           
           echo"<p class='success'>$name, your request has been submitted and you can login after verification by Admin.</p>";
 
-          echo"<form action='examination.html' style='text-align: center; margin : 20px'>
+          echo"<form action='index.html' style='text-align: center; margin : 20px'>
           
           <button type='submit' class='btn'>Go To Home</button>
      </form>";
